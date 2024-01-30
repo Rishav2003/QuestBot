@@ -1,5 +1,11 @@
-streamlit
-sklearn
+streamlit_option_menu 
+requests
+streamlit-lottie
+pickle-mixin
+times
+scikit-learn 
 fuzzywuzzy
 distance
 bs4
+gensim
+nltk
