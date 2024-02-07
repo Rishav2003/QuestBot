@@ -6,6 +6,6 @@ times
 scikit-learn == 1.2.2
 fuzzywuzzy
 distance
-bs4
+bs4 
 gensim
 nltk
