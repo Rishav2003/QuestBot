@@ -1,6 +1,6 @@
 import streamlit as st
 import helper_org
-import pickle
+import pickle 
 
 model1 = pickle.load(open('random_forest_model.pkl','rb'))
 model = pickle.load(open('word2vec_model.pkl','rb'))
