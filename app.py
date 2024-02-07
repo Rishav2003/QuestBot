@@ -16,6 +16,6 @@ if st.button('Find'):
     if result:
         st.header('Duplicate')
     else:
-        st.header('Not Duplicate')
+        st.header('Not Duplicate') 
 
 
