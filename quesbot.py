@@ -7,7 +7,7 @@ import requests
 from streamlit_lottie import st_lottie
 model1 = pickle.load(open('random_forest_model.pkl','rb'))
 model = pickle.load(open('word2vec_model.pkl','rb'))
-
+     
 with st.sidebar:
     
     selected = option_menu('QUESBOT: A Duplicacy detection platform',
