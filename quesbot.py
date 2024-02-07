@@ -27,7 +27,7 @@ if (selected == 'HOME'):
 
     lottie_url_hello = "https://lottie.host/cad7940e-6aa9-40d4-ab08-c64e3de10b99/vRabVp46GO.json"
     lottie_hello = load_lottieurl(lottie_url_hello)
-    st_lottie(lottie_hello, key="hello",height=650)
+    st_lottie(lottie_hello, key="hello",height=550)
     st.header('What is QuesBot ? ')
     st.markdown(
     """
@@ -67,7 +67,7 @@ if (selected == 'Detection'):
 
     lottie_url_hello = "https://lottie.host/94cd58e5-c976-4dd2-b028-cd6d8b620c9f/dceF4sKqtG.json"
     lottie_hello = load_lottieurl(lottie_url_hello)
-    st_lottie(lottie_hello, key="hello")
+    st_lottie(lottie_hello, key="hello",height=500)
     
     # getting the input data from the user
     q1 = st.text_input('Enter question 1')
